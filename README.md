@@ -36,7 +36,6 @@ A well-crafted description allows you to show off your work to other developers 
 2. [How to Install and Run the Project](#how-to-install-and-run-the-project)
 3. [How to Use the Project](#how-to-use-the-project)
 4. [Credits](#credits)
-5. [License](#license)
 
 ## How to Install and Run the Project
 
