@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF1A30782C4F0A14007869F6 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1A30772C4F0A14007869F6 /* SearchBar.swift */; };
 		CFDA04BD2C4E25F8001E1F6B /* Fetch_iOS_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA04BC2C4E25F8001E1F6B /* Fetch_iOS_ChallengeApp.swift */; };
 		CFDA04BF2C4E25F8001E1F6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA04BE2C4E25F8001E1F6B /* ContentView.swift */; };
 		CFDA04C12C4E25FE001E1F6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDA04C02C4E25FE001E1F6B /* Assets.xcassets */; };
 		CFDA04C42C4E25FE001E1F6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDA04C32C4E25FE001E1F6B /* Preview Assets.xcassets */; };
+		CFDA04CB2C4E2815001E1F6B /* MealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA04CA2C4E2815001E1F6B /* MealData.swift */; };
+		CFDA04CD2C4E2845001E1F6B /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA04CC2C4E2845001E1F6B /* ApiService.swift */; };
+		CFDA04CF2C4E2867001E1F6B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDA04CE2C4E2867001E1F6B /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF1A30772C4F0A14007869F6 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		CFDA04B92C4E25F8001E1F6B /* Fetch_iOS_Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fetch_iOS_Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDA04BC2C4E25F8001E1F6B /* Fetch_iOS_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_iOS_ChallengeApp.swift; sourceTree = "<group>"; };
 		CFDA04BE2C4E25F8001E1F6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFDA04C02C4E25FE001E1F6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFDA04C32C4E25FE001E1F6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFDA04CA2C4E2815001E1F6B /* MealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealData.swift; sourceTree = "<group>"; };
+		CFDA04CC2C4E2845001E1F6B /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		CFDA04CE2C4E2867001E1F6B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				CFDA04BC2C4E25F8001E1F6B /* Fetch_iOS_ChallengeApp.swift */,
 				CFDA04BE2C4E25F8001E1F6B /* ContentView.swift */,
+				CFDA04CC2C4E2845001E1F6B /* ApiService.swift */,
+				CFDA04CE2C4E2867001E1F6B /* DetailView.swift */,
+				CF1A30772C4F0A14007869F6 /* SearchBar.swift */,
+				CFDA04CA2C4E2815001E1F6B /* MealData.swift */,
 				CFDA04C02C4E25FE001E1F6B /* Assets.xcassets */,
 				CFDA04C22C4E25FE001E1F6B /* Preview Content */,
 			);
@@ -139,6 +151,10 @@
 			files = (
 				CFDA04BF2C4E25F8001E1F6B /* ContentView.swift in Sources */,
 				CFDA04BD2C4E25F8001E1F6B /* Fetch_iOS_ChallengeApp.swift in Sources */,
+				CFDA04CD2C4E2845001E1F6B /* ApiService.swift in Sources */,
+				CFDA04CF2C4E2867001E1F6B /* DetailView.swift in Sources */,
+				CFDA04CB2C4E2815001E1F6B /* MealData.swift in Sources */,
+				CF1A30782C4F0A14007869F6 /* SearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
