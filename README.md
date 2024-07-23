@@ -4,7 +4,6 @@
 
 The **Dessert Recipes App** is a native iOS application that allows users to browse and search for dessert recipes. Users can view detailed information about each recipe, including ingredients, cooking instructions, and reviews. This app aims to provide a delightful user experience for dessert enthusiasts, leveraging the `themealdb.com` API for its data.
 
-A well-crafted description allows you to show off your work to other developers as well as potential employers.
 
 ### What your application does
 - Browse a list of dessert recipes
@@ -17,9 +16,10 @@ A well-crafted description allows you to show off your work to other developers 
 |File Name       | Description                                      |
 |----------------|--------------------------------------------------|
 |MealData        | Data Structure for all the meals and meal details|
-|API Service     | JSON Decoding and API Fetching                   |
-|Content View    | Home Screen UI                                   |
-|Detail View     | Meal Details UI                                  |
+|ApiService     | JSON Decoding and API Fetching                   |
+|ContentView    | Home Screen UI                                   |
+|DetailView     | Meal Details UI                                  |
+|SearchBar | Search Bar UI Component |
 
 ### Why you used the technologies you used
 - **SwiftUI**: For building a responsive and modern user interface.
@@ -48,7 +48,7 @@ A well-crafted description allows you to show off your work to other developers 
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/dessert-recipes-app.git
+   git clone https://github.com/KoKoAung58/Fetch_iOS_Coding_Challenge.git
 2. Open the project in Xcode:
    cd dessert-recipes-app
    open DessertRecipesApp.xcodeproj
